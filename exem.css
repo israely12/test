@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttondiv {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#button {
+  background-color: rgb(231, 225, 225);
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hidden{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: none;
+}
